@@ -9,11 +9,11 @@ This package uses EMsoft, which needs to be installed on your computer. More inf
 
 You will also need the following code packages:
 1. *pcglobal*: https://github.com/epang22/pcglobal
-..* Fit pattern centers using global optimization. 
+  * Fit pattern centers using global optimization. 
 2. *EMsoft-utilities*: https://github.com/epang22/EMsoft-utilities
-..* Store your patterns in a .data file for EMsoft.
-..* Figure out some parameters needed for EBSDrefine. *This is an important step, as some combinations of nthreads, numexptsingle/numdictsingle, and chunk (# orientations indexed at once) will cause EMsoft's EMEBSDDI program to give an error (bug in EMsoft)*
-..* Combine data from multiple phases, which need to be indexed separately using EBSDrefine.
+  * Store your patterns in a .data file for EMsoft.
+  * Figure out some parameters needed for EBSDrefine. *This is an important step, as some combinations of nthreads, numexptsingle/numdictsingle, and chunk (# orientations indexed at once) will cause EMsoft's EMEBSDDI program to give an error (bug in EMsoft)*
+  * Combine data from multiple phases, which need to be indexed separately using EBSDrefine.
 
 Program descriptions:
 - RunEBSDrefine_checkangles_plotfit.m: Use this program to check what fit values you should restrict when reading in data.
