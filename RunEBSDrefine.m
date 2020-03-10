@@ -45,7 +45,7 @@ data.energymax = 25.0;
 data.masterfile = '180713_13p5Ce_25kV_master/ZrO2-13p5CeO2_tetragonal-master-25kV.h5';   % master pattern input file, path relative to EMdatapathname
 
 % EMsoft EMEBSDDI parameters
-% *You need to check that these parameters work using TestErrorsTimings.m
+% *You need to check that these parameters work using TestErrorsTimings.m (EMsoft-utilities)
 % *For whatever reason, EMsoft gives an error for some combinations.
 data.nthreads = 7; % for EMEBSDDI
 data.numdictsingle = 192;   % # of dictionary files arranged in column for dp on GPU (multiples of 16 perform better)
