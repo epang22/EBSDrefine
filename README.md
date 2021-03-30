@@ -1,7 +1,9 @@
 # EBSDrefine
 Refine EBSD data by a modified dictionary indexing method. Looks at input orientations (presumably Hough-indexed data) to create a dictionary focused in orientation space and then interpolates to improve the accuracy of the indexed solution. A main application of this method is to resolve pseudosymmetry, but it can also be used to refine the orientations of non-pseudosymmetric materials.
 
-Our paper describing this method and its performance can be found at: https://arxiv.org/abs/2003.04476 (preprint)
+Our paper describing this method and its performance can be found at: 
+https://arxiv.org/abs/2003.04476 (preprint)
+https://scripts.iucr.org/cgi-bin/paper?yr5061 (same paper, peer-reviewed version in Journal of Applied Crystallography)
 
 *Patterns used in this paper can be found in the folder 'paperdata/'*
 
